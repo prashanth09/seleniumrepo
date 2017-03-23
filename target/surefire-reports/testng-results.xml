@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.facebook.test.Login_Test" duration-ms="6201" started-at="2017-03-12T15:50:29Z" finished-at="2017-03-12T15:50:35Z">
+    <groups>
+      <group name="p1">
+        <method signature="Login_Test.loadPage()[pri:0, instance:com.facebook.test.Login_Test@26ba2a48]" name="loadPage" class="com.facebook.test.Login_Test"/>
+      </group> <!-- p1 -->
+      <group name="p2">
+        <method signature="Login_Test.filloutEmail()[pri:0, instance:com.facebook.test.Login_Test@26ba2a48]" name="filloutEmail" class="com.facebook.test.Login_Test"/>
+      </group> <!-- p2 -->
+      <group name="field">
+        <method signature="Login_Test.filloutEmail()[pri:0, instance:com.facebook.test.Login_Test@26ba2a48]" name="filloutEmail" class="com.facebook.test.Login_Test"/>
+      </group> <!-- field -->
+      <group name="pageLoads">
+        <method signature="Login_Test.loadPage()[pri:0, instance:com.facebook.test.Login_Test@26ba2a48]" name="loadPage" class="com.facebook.test.Login_Test"/>
+      </group> <!-- pageLoads -->
+    </groups>
+    <test name="Command line test" duration-ms="6201" started-at="2017-03-12T15:50:29Z" finished-at="2017-03-12T15:50:35Z">
+      <class name="com.facebook.test.Login_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.facebook.test.Login_Test@26ba2a48]" name="setup" is-config="true" duration-ms="2896" started-at="2017-03-12T10:50:29Z" finished-at="2017-03-12T10:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loadPage()[pri:0, instance:com.facebook.test.Login_Test@26ba2a48]" name="loadPage" duration-ms="2939" started-at="2017-03-12T10:50:32Z" finished-at="2017-03-12T10:50:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method status="PASS" signature="filloutEmail()[pri:0, instance:com.facebook.test.Login_Test@26ba2a48]" name="filloutEmail" duration-ms="177" started-at="2017-03-12T10:50:34Z" depends-on-methods="com.facebook.test.Login_Test.loadPage" finished-at="2017-03-12T10:50:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filloutEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.test.Login_Test@26ba2a48]" name="tearDown" is-config="true" duration-ms="154" started-at="2017-03-12T10:50:35Z" finished-at="2017-03-12T10:50:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.facebook.test.Login_Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.facebook.test.Login_Test -->
+</testng-results>

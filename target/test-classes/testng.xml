@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Login Test">
+<test name="p1 tests">
+  <groups>
+      <run>
+          <include name="P1"/>
+      </run>
+  </groups>
+    <classes>
+        <class name="com.facebook.test.Login_Test">
+            <methods>
+                <include name="loadPage">
+
+                </include>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
